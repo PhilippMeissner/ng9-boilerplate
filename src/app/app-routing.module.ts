@@ -1,11 +1,15 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {dashboardAreaRoutes} from './areas/dashboard/dashboard-area.routes';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  ...dashboardAreaRoutes.lazyRoutes,
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}
