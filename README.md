@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `yarn install` to get up and running with all dependencies.
 
 ## Development server
-Run `yarn run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn run dev` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 Run `yarn run build` to build the project. The build artifacts will be stored in the `dist/` directory. Run `yarn run build:prod` for a production build.
