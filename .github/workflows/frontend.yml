@@ -2,14 +2,14 @@
 
 name: CI
 on: [push]
-strategy:
-  matrix:
-    node: [12.x]
 
 jobs:
   build-frontend:
     name: Build Frontend
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [12.x]
 
     steps:
       - uses: actions/setup-node@v1
