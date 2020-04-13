@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [12.x]
+        node: [12.x, 13.x]
 
     steps:
       - uses: actions/setup-node@v1
@@ -31,7 +31,10 @@ jobs:
 
   test-frontend:
     name: Test Frontend
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          node: [12.x, 13.x]
     steps:
       - uses: actions/checkout@v2
       - name: Get yarn cache
