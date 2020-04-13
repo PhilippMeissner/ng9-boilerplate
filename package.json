@@ -1,6 +1,11 @@
 {
   "name": "ng9-boilerplate",
   "version": "0.0.0",
+  "author": {
+    "name": "Philipp Meissner",
+    "url": "philippmeissner.dev",
+    "email": "pm@zeit.dev"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
