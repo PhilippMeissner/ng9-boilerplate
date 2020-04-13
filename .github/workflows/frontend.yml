@@ -2,6 +2,9 @@
 
 name: CI
 on: [push]
+strategy:
+  matrix:
+    node: [12.x]
 
 jobs:
   build-frontend:
@@ -9,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/setup-node@v1
+        with:
+          # The Node.js version to configure
+          node-version: ${{ matrix.node }}
+
       - uses: actions/checkout@v2
       - name: Get yarn cache
         id: yarn-cache
