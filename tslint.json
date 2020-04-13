@@ -36,7 +36,8 @@
     "import-spacing": true,
     "indent": {
       "options": [
-        "spaces"
+        "spaces",
+        2
       ]
     },
     "max-classes-per-file": false,
@@ -76,6 +77,7 @@
       true,
       "as-needed"
     ],
+    "ordered-imports": true,
     "quotemark": [
       true,
       "single"
@@ -116,7 +118,8 @@
       "options": [
         "ban-keywords",
         "check-format",
-        "allow-pascal-case"
+        "allow-leading-underscore",
+        "allow-trailing-underscore"
       ]
     },
     "whitespace": {
