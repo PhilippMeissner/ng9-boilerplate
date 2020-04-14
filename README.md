@@ -3,16 +3,17 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c84ad599-7ff7-4087-940b-30bbafd66c4e/deploy-status)](https://app.netlify.com/sites/angular-9-boilerplate/deploys)
 
 # Features
-[x] routing
-[x] lazy loading
-[x] feature-modules
-[x] angular material
-[x] loading indicator (initial loading, requests and lazy-loaded modules)
-[x] github actions for CI
-[x] auto deployment to netlify (https://angular-9-boilerplate.netlify.com/)
-[ ] state management
-[ ] user management
-[ ] i18n
+
+- [x] routing
+- [x] lazy loading
+- [x] feature-modules
+- [x] angular material
+- [x] loading indicator (initial loading, requests and lazy-loaded modules)
+- [x] github actions for CI
+- [x] auto deployment to netlify (https://angular-9-boilerplate.netlify.com/)
+- [ ] state management
+- [ ] user management
+- [ ] i18n
 
 ## Get Started
 Run `yarn install` to get up and running with all dependencies.
