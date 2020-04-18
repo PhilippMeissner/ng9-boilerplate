@@ -1,4 +1,6 @@
+import {CommonModule} from '@angular/common';
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {ExampleFeatureModule} from '../../../features/example-feature/example-feature.module';
 import {DashboardPageComponent} from './dashboard-page.component';
 
 describe('DashboardPageComponent', () => {
@@ -7,6 +9,10 @@ describe('DashboardPageComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [
+        CommonModule,
+        ExampleFeatureModule,
+      ],
       declarations: [
         DashboardPageComponent,
       ],
